@@ -1,0 +1,72 @@
+.nav{
+  position: fixed;
+  top: 30vw;
+  left: 3vw;
+  width: 50%;
+  display: none;
+  z-index: 10000;
+}
+.nav-item{
+  letter-spacing: 3px;
+  overflow: hidden;
+  z-index: 10000;
+  display: inline;
+}
+@media screen and (max-width: 700px) {
+  .nav {
+      top: 100vw;
+      left: 5vw;
+      z-index: 10000;
+  }
+}
+.nav-link{
+  color: white;
+  font-family: 'Six Caps', sans-serif;
+  font-size: 1.563em;
+  z-index: 10000;
+}
+.nav-link:hover{
+  color: grey;
+  z-index: 10000;
+}
+/* Style all font awesome icons */
+#formButton{
+  position: fixed;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline: none;
+  font-family: 'Six Caps', sans-serif;
+  color: white;
+  font-size: 1.563em;
+  text-decoration: none;
+  letter-spacing: 3px;
+  top: 25vw;
+  left: 4vw;
+  display: flex;
+  z-index: 10000;
+}
+@media screen and (max-width: 700px) {
+  #formButton {
+    position: absolute;
+    left: 9vw;
+    top: 40vw;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline: none;
+    font-family: 'Six Caps', sans-serif;
+    color: white;
+    font-size: 1.563em;
+    text-decoration: none;
+    z-index: 10000;
+    letter-spacing: 3px;
+    transform: rotate(-90deg);
+  }
+}
+
+

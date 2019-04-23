@@ -1,0 +1,108 @@
+.top-left {
+    position: absolute;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 5vw;
+    left: 4vw;
+    /* top: 255px;
+    left: 80px; */
+    /* transform: rotate(-90deg); */
+    z-index: 10000;
+  }
+  @media screen and (max-width: 700px) {
+    .top-left {
+      transform: rotate(0deg);
+      top: 30vw;
+      left: 30vw;
+      font-size: 20vw;
+    }
+  }
+  .top-left1 {
+    position: absolute;
+    color:white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 8vw;
+    top:4vw;
+    left: 4vw;
+    /* top: 80px;
+    left: 16px; */
+    /* transform: rotate(-90deg); */
+    z-index: 10000;
+  }
+  @media screen and (max-width: 700px) {
+    .top-left1 {
+      transform: rotate(0deg);
+      top: 50vw;
+      left: 30vw;
+      font-size: 20vw;
+    }
+  }
+  .top-left2 {
+    position: absolute;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 5vw;
+    /* font-size: 40px; */
+    top:13vw;
+    left: 4vw;
+    /* top: 80px;
+    left: 130px; */
+    /* transform: rotate(-90deg); */
+    z-index: 10000;
+  }
+  @media screen and (max-width: 700px) {
+    .top-left2 {
+      transform: rotate(0deg);
+      top: 70vw;
+      left: 30vw;
+      font-size: 20vw;
+    }
+  }
+  .bck2 {
+      background-color: darkred;
+      position: relative;
+      left: 400px;
+      width:70vw;
+	  height:1040px;
+  }
+  h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+    color: white;
+    letter-spacing: 3px;
+    position: relative;
+    top: 100px;
+    margin-left: 80px;
+}
+h1:before{
+  content: attr(data-text);
+  position: absolute;
+  top:0;
+  left:0;
+  color: black;
+  width: 0%;
+  overflow: hidden;
+  transition: 0s;
+}
+h1:hover::before{
+    width: 100%;
+}
+.img5{
+    position: absolute;
+    height: auto; 
+    width: auto; 
+    max-width: 600px; 
+    max-height: 600px;
+    z-index: 10000;
+    left:580px;
+    top:200px;
+}
+p {
+  color: white;
+  column-count: 2;
+  left: 100px;
+  margin-right:100px;
+  text-align: justify;
+  position: absolute;
+  margin-top: 650px;
+}

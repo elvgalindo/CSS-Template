@@ -1,0 +1,228 @@
+.top-left {
+  position: absolute;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-size: 8vw;
+  left: 8vw;
+  /* top: 255px;
+  left: 80px; */
+  /* transform: rotate(-90deg); */
+  z-index: 10000;
+}
+@media screen and (max-width: 700px) {
+  .top-left {
+    transform: rotate(0deg);
+    top: 30vw;
+    left: 30vw;
+    font-size: 20vw;
+  }
+}
+.top-left1 {
+  position: absolute;
+  color:white;
+  font-family: 'Oswald', sans-serif;
+  font-size: 10vw;
+  top:8vw;
+  left: 8vw;
+  /* top: 80px;
+  left: 16px; */
+  /* transform: rotate(-90deg); */
+  z-index: 10000;
+}
+@media screen and (max-width: 700px) {
+  .top-left1 {
+    transform: rotate(0deg);
+    top: 50vw;
+    left: 30vw;
+    font-size: 20vw;
+  }
+}
+.top-left2 {
+  position: absolute;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-size: 6vw;
+  /* font-size: 40px; */
+  top:20vw;
+  left: 9vw;
+  /* top: 80px;
+  left: 130px; */
+  /* transform: rotate(-90deg); */
+  z-index: 10000;
+}
+@media screen and (max-width: 700px) {
+  .top-left2 {
+    transform: rotate(0deg);
+    top: 70vw;
+    left: 30vw;
+    font-size: 20vw;
+  }
+}
+html,body {
+
+    width:100%;
+    height:100%;
+  }
+  .container 
+  {
+  width:100%;
+  height:100%;
+  
+  }
+  #slideshow {
+    margin: 0;
+    padding: 0px;
+    position: sticky;
+    width:100%;
+    height:100%;
+    display: sticky;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+  }
+  .elemnt,.elemnt1,.elemnt2 {
+  position: fixed;
+  left: 0px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  display: block;
+  text-align: center;
+  }
+
+  .elemnt {
+    animation-name: xfade;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-duration: 60s;
+    animation-direction: alternate-reverse;
+    background-image: url('IMG_1235.JPG');
+    
+  }
+  .elemnt1 {
+    animation-name: xfade1;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-duration: 50s;
+    animation-direction: alternate-reverse;
+    background-image: url('IMG_1246.JPG');
+  }
+  .elemnt2 {
+    animation-name: xfade2;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-duration: 40s;
+    animation-direction: alternate-reverse;
+    background-image: url('IMG_0330.JPG');
+  }
+  .elemnt3 {
+    animation-name: xfade3;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-duration: 30s;
+    animation-direction: alternate-reverse;
+    background-image: url('IMG_0257.JPG');
+    position: fixed;
+    background-position: center;
+    left: 0px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    display: inline-block;
+    text-align: center;
+    filter: opacity(.7
+    );  
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px 10px;
+  bottom: 42px;
+  right: 80px;
+  position: absolute;
+  z-index: 10000;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+  color: white;
+  z-index: 10000;
+}
+
+/* Instagram */
+.fa-instagram {
+  color: white;
+  z-index: 10000;
+}
+@media screen and (max-width: 700px) {
+  .fa-instagram {
+      top: 53vw;
+      left: 5vw;
+      z-index: 10000;
+  }
+}
+.fa-facebook {
+  color: white;
+  right: 140px;
+  z-index: 10000;
+}
+@media screen and (max-width: 700px) {
+  .fa-facebook {
+      top: 45vw;
+      left: 6vw;
+      z-index: 10000;
+  }
+}
+  @keyframes xfade{
+    17% {
+      opacity:1;
+    }
+    25% {
+      opacity:0;
+    }
+    92% {
+      opacity:0;
+    }
+  }
+  @keyframes xfade1{
+    17% {
+      opacity:1;
+    }
+    25% {
+      opacity:0;
+    }
+    92% {
+      opacity:0;
+    }
+  }
+  @keyframes xfade2{
+    17% {
+      opacity:1;
+    }
+    25% {
+      opacity:0;
+    }
+    92% {
+      opacity:0;
+    }
+  }
+  @keyframes xfade3{
+    17% {
+      opacity:1;
+    }
+    25% {
+      opacity:0;
+    }
+    92% {
+      opacity:0;
+    }
+  }
+
+  
